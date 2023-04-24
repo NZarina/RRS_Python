@@ -49,4 +49,3 @@ class Lorry(Vehicle):
 Car3 = Lorry('unknown', 'green', 2017, '18L USD', 'new')
 # print(Car3.short_info())
 print(Car3.short_info_added())
-print(Car3.short_info_added())
