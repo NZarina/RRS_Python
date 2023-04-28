@@ -11,6 +11,7 @@ html/body/div[2]/button[3]
 //div[2]/button[3]
 //button[text()='Gold']
 //button[contains(text(), 'Gold')]
+//*[contains(text(), 'Gold')]
 
 
 6.2. Найдите элемент с текстом "Fully charged cat". Чем больше разных XPATH и/или CSS-селекторов сможете подобрать, тем лучше
@@ -25,3 +26,4 @@ div > div > div > div:nth-child(5) > div > div > p
 /html/body/main/div/div/div/div[5]/div/div/p
 //div/div/div/div[5]/div/div/p
 //p[text()='Fully charged cat']
+//*[text()='Fully charged cat']
